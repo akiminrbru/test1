@@ -4,7 +4,7 @@ function Maket(props) {
     return( 
         <div className="maket">
             <p>{props.data}</p>
-            <input placeholder="*Введите текст"></input>
+            <input id={props.id} type="text" placeholder="*Введите текст"></input>
         </div>
     )
 }
