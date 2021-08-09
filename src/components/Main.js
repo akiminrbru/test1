@@ -19,6 +19,7 @@ function send() {
     for(let i = 0; i < 6; i++) {
         let elem = document.getElementById(i + 1).value;
         localStorage.setItem(data.data[i].question, elem);
+        document.getElementById(i + 1).value = "";
     }
     console.log("Привет мир")
 }
