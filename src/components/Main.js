@@ -21,7 +21,6 @@ function send() {
         localStorage.setItem(data.data[i].question, elem);
         document.getElementById(i + 1).value = "";
     }
-    console.log("Привет мир")
 }
 
 function Main() {
