@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Maket() {
+function Maket(props) {
     return( 
         <div className="maket">
-            <p>gfdgd</p>
+            <p>{props.data}</p>
             <input placeholder="*Введите текст"></input>
         </div>
     )
